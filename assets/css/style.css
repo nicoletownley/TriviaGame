@@ -1,0 +1,41 @@
+body {
+  background-image: url("../images/Minnesota.jpg");
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  padding: 20px;
+  font-size: 50px;
+}
+.btn {
+  position: relative;
+  bottom: -150px;
+}
+    
+.container {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+#timeremaining {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+#questionarea {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+#answerarea {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+img {
+    height: 300px;
+    width:  300px
+}
