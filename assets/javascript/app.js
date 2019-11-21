@@ -47,7 +47,7 @@ $(document).ready(function () {
             question: "In the US, Minnesota has the 2nd largest of what?",
             choice: ["Lakes", "Timberwolves", "Red Mulberry", "Elderberry"],
             answer: 1,
-            photo: "assets/images/Timberwolves.jpg"
+            photo: "assets/images/Timberwolves.webp"
         },  
 
         {
