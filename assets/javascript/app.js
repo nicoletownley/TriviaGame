@@ -47,8 +47,8 @@ $(document).ready(function () {
             question: "In the US, Minnesota has the 2nd largest of what?",
             choice: ["Lakes", "Timberwolves", "Red Mulberry", "Elderberry"],
             answer: 1,
-            photo: "assets/images/Timberwolves.webp"
-        },  
+            photo: "assets/images/Timberwolves.jpg"
+        },  git 
 
         {
             question: "The highest point in Minnesota is what?",
@@ -123,8 +123,12 @@ $(document).ready(function () {
         $("#questionarea").html("<h2>" + choicy.question + "</h2>");
         for (var i = 0; i < choicy.choice.length; i++) {
             var userPick = $("<div>");
+            var option = `<div>
+            <input type="radio" id=${i} name="option" value=${choicy.choice[i]}>
+            <label for=${i}>${choicy.choice[i]}</label>
+          </div>`
             userPick.addClass("answerchoice");
-            userPick.html(choicy.choice[i]);
+            userPick.html(option)
             userPick.attr("data-value", i);
             $("#answerarea").append(userPick);
         }
