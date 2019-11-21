@@ -48,7 +48,7 @@ $(document).ready(function () {
             choice: ["Lakes", "Timberwolves", "Red Mulberry", "Elderberry"],
             answer: 1,
             photo: "assets/images/Timberwolves.jpg"
-        },  git 
+        }, 
 
         {
             question: "The highest point in Minnesota is what?",
